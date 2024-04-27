@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #f5f5f7;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:4.2vh;
+    background-color: #f5f5f7;
+    box-shadow: 0 2px 6px 0 #d2d2d6
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+nav ul li{
+    display: flex;
+    margin: 0 1vw;
+    font-size: 75%;
+}
+.material-icons{
+    display: flex;
+    font-size: 169% !important;
+}
+
+.offers{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2.4vh;
+    text-align: center;
+    font-size: 80%;
+}
+.offer{
+    display: flex;
+    background-color: white;
+}
+.arrowfwd{
+    background-color: white;
+}
+.arrowback{
+    background-color: white;
+}
+.arrowfwd:hover{
+    cursor: pointer;
+}
+.arrowback:hover{
+    cursor: pointer;
+}
+.temp{
+    background-color: white;
+    opacity: 50%;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.maintext{
+    margin: 85px;
+    margin-left: 115px;
+    font-size: 125%;
+    color: gray;
+    letter-spacing: -2px;
+}
+.store{
+    color:black
+}
+.sidebar{
+    margin-right: 130px;
+    margin-top: 40px;
+}
+/* .contactImage{
+    height: 50%;
+    width: 50%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+} */
+.link{
+    color: rgb(0, 136, 255);
+}
+.link:hover{
+    cursor: pointer;
+    text-decoration: underline rgb(0, 136, 255);
+}
+.sidebaricons{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 680px;
+    margin-top: 40px;
+    font-size: 120%;
+}
+.image{
+   /* width: 80px; */
+   height: 80px;
+}
+
+.items{
+    width:70%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    font-size: 80%;
+    margin-left:6%;
+    text-align: center;
+}
+.itemsContent:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.maintext1{
+    margin: 85px;
+    margin-left: 115px;
+    font-size: 125%;
+    color: gray;
+    margin-bottom: 25px;
+}
+.models{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 85px;
+}
+.models .phone{
+    /* padding: 10px; */
+    margin:10px;
+
+}
+
+.phone {
+    position: relative;
+    text-align: center;
+  }
+  .image1{
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #d2d2d6;
+  }
+  .image1:hover{
+    transform: scale(1.02);
+    transition-duration: 220ms;
+    cursor: pointer;
+  }
+  .top-left {
+    position: absolute;
+    top: 3vh;
+    left: 2.2vw;
+    background-color:black;
+    color: white;
+    font-size: 0.75rem;
+    text-align: left;
+    line-height: 3vh;
+  }
+  .top-left1 {
+    position: absolute;
+    top: 3vh;
+    left: 2.2vw;
+    background-color: white;
+    color: black;
+    font-size: 0.75rem;
+    text-align: left;
+    line-height: 3vh;
+  }
+  .top-left2 {
+    position: absolute;
+    top: 3vh;
+    left: 1.85vw;
+    background-color: #1d1d1f;
+    color: white;
+    font-size: 0.75rem;
+    text-align: left;
+    line-height: 3vh;
+  }
+  .top-left3 {
+    position: absolute;
+    top: 3vh;
+    left: 1.7vw;
+    background-color: transparent;
+    color: black;
+    font-size: 0.75rem;
+    text-align: left;
+    line-height: 3vh;
+  }
+  .modelName {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .modelName1 {
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  }
+  .modelName11 {
+    background-color: white;
+    color: black;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+  } 
+  .modelName2 {
+    background-color: #1d1d1f;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: left;
+  } 
+  .modelName3 {
+    background-color: transparent;
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: left;
+  } 
